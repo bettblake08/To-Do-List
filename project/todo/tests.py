@@ -1,4 +1,4 @@
 from django.test import TestCase
-from todo.api.v1 import views
+from todo import views
 
 # Create your tests here.
