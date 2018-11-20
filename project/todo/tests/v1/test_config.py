@@ -7,5 +7,6 @@ class ModelTestCase(TestCase):
 
     @classmethod
     def setUpClass(cls):
+        super(ModelTestCase, cls).setUpClass()
         cls.client = APIClient()
-        
+
